@@ -1,0 +1,300 @@
+/* variables */
+:root {
+ --green: #063d3d;
+ --gold: #bfa778;
+ --white: #e4e8ea;
+ --purple: #252f53;
+}
+
+/* Font definitions */
+@font-face {
+ font-family: mhpFonts;
+ src: url(/fonts/GallientDemoVersion-Regular\ 400.otf);
+}
+
+@font-face {
+ font-family: gruppo;
+ src: url(/fonts/Gruppo-Regular.ttf);
+}
+
+/* reset */
+body,p,h1,h2,h3,h4,a,li{
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+ text-decoration: none; 
+ color: var(--white);
+}
+
+/* global settings */
+body{
+ background-color: var(--green);
+}
+.site_wrapper{
+ overflow-x: hidden;
+}
+
+h1{
+ font-family: mhpFonts;
+}
+
+h3{
+ font-family: gruppo;
+ color: var(--gold);
+}
+
+
+
+
+
+/* Phone setting here */
+#mhpLinks {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ width: 100vw;
+ height: 100vh;
+ float: right;
+ text-align: right;
+ background-color: #063d3d;
+ margin-left: -40px;
+ margin-top: -5px
+}
+
+#mhpLinks li{
+ padding: 20px;
+ text-transform: uppercase;
+ font-weight: 400;
+ margin-left: -30px;
+}
+
+
+.mhp_logo img{
+ width: 100%;
+}
+
+.mhp_nav_grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 10px;
+}
+
+.mhp_nav_grid a{
+ padding: 20px 0px 0px 20px;
+}
+
+
+.toggle_icon i{
+ float: right;
+ font-size: 40px;
+ padding-right: 20px;
+}
+
+#links_socials a{
+ margin: 20px;
+}
+
+/* section styling for mobile screens */
+.mhp_home_mobile{
+ position: relative;
+ width: 100vw;
+ height: 80vh;
+}
+
+
+.mhp_home_mobile img{
+ height:80vh;
+}
+
+.mob_left_view{
+ position: absolute;
+ top: 30%;
+}
+
+.mob_left_view h1{
+ font-size: 45px;
+ margin:0px 0px -10px 10px;
+ text-transform: uppercase;
+ top: 50%;
+}
+
+.mob_home_button{
+  position: absolute;
+   top: 40%;
+   left: 40%;
+}
+
+.build_btn{
+ padding: 20px 30px;
+ background-image: linear-gradient(90deg, #107474, #032121);
+ border-radius: 10px;
+ color: var(--white);
+ font-weight: 700;
+ border: #107474 1px;
+}
+
+.build_btn:hover{
+  background-image: linear-gradient(270deg, #107474, #032121);
+  border: #107474 1px;
+  transition: background-image 0.50s;
+}
+
+.mob_quote_text{
+ position: absolute;
+ bottom: 5%;
+ width: 100%;
+ background-color: rgba(6, 61, 61, 0.6);
+}
+
+.mob_quote_text figure{
+ width: 80%;
+ margin: 20px auto;
+}
+
+.mob_quote_text figcaption{
+ text-align: right;
+ font-weight: 600;
+}
+
+.screen_nav{
+ display: none;
+}
+
+
+
+
+
+/* small tablets 620 - 959px*/
+@media screen and (min-width: 620px){
+ .toggle_icon{
+  display: none;
+  /* z-index: 2; */
+ }
+
+
+ .screen_nav{
+  background-color: rgba(6, 61, 61, 0.6);
+  width: 100%;
+  display: inline;
+  position: absolute;
+  left: 0;
+  margin: 0px auto 0px auto;
+ }
+
+ .screen_nav ul{
+  width: auto;
+  list-style-type: none;
+  margin: 0px auto 0px auto;
+ }
+
+ .screen_nav li{
+  float: left;
+  padding: 10px;
+ }
+
+ #screen_nav_socials{
+  margin-left: 30px;
+ }
+ #screen_nav_socials a{
+  padding: 1px;
+ } 
+
+
+.mhp_logo{
+ position: relative;
+ left: 40%;
+ width: 100%;
+}
+
+ .mhp_home_mobile img{
+  position: relative;
+  width: 100vw;
+  left: 0%;
+ }
+
+.mob_home_button {
+ position: absolute;
+ top: 40%;
+ left: 45%;
+}
+
+.mob_quote_text{
+ background-color: rgba(3, 31, 31, 0.6);
+ width: 50%;
+ bottom: 5%;
+ left: 10;
+}
+
+ .mob_left_view h1 {
+  font-size: 4em;
+  color: white;
+  font-weight: 100;
+ }
+
+}
+
+
+/* tablets and Laptops */
+@media screen and (min-width: 960px) {
+ .mhp_logo {
+   position: relative;
+   left: 0;
+   width: 40%;
+  }
+
+ .screen_nav {
+  display: inline;
+  position: absolute;
+  background-color: rgba(6, 61, 61, 0);
+  width: 100%;
+  left: 50%;
+  margin-top: -60px;
+ }
+
+ #screen_nav_socials a {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  font-size: smaller;
+  color: black;
+ }
+
+ .mhp_home_mobile img {
+  position: relative;
+  width: auto;
+  height: 90vh;
+  margin-top: -90px;
+  /* top: 200%;*/
+  left: 50%; 
+ }
+
+ .mob_quote_text {
+  background-color: rgba(3, 31, 31, 0);
+  width: 30%;
+  bottom: 5%;
+  left: 20%;
+ }
+
+ .mob_left_view h1 {
+  font-size: 7em;
+  color: white;
+  font-weight: 100;
+ }
+
+  .mob_left_view{
+   margin-top: -100px;
+   margin-left: 20px;
+  }
+}
+
+
+/* Desktops */
+@media screen and (min-width: 1200px) {
+ .toggle_icon {
+   display: none;
+  }
+}
