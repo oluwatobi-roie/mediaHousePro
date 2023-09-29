@@ -243,6 +243,68 @@ background-color: var(--green);
  display: none;
 }
 
+/* Proejcts Who are we styling for small screens */
+.project_introduction{
+ padding-top: 30px;
+}
+
+.who_we_are{
+ position: absolute;
+}
+
+.who_we_are h3{
+ text-align: center;
+}
+
+.who_we_are_topic{
+ position: relative;
+ text-transform: uppercase;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+#topic_project span {
+ font-family:'Times New Roman', Times, serif;
+ font-size: 60px;
+}
+#topic_your{
+ margin-top: 2px
+}
+#topic_project{
+ margin-top: -30px;
+}
+
+.who_we_are_quote p{
+ color: var(--white);
+ font-size: 0.7em;
+ padding: 10px 30px;
+}
+
+.who_we_are_quote{
+ background-color: rgba(6, 61, 61, 0.6);
+ border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+ width: 70%;
+ margin-left: 50px;
+ margin-top: 20%;
+ text-align: left;
+}
+
+.who_we_are_img{
+ position: absolute;
+ z-index: -1;
+ top: 40%;
+ left: 10%;
+ width: 80vw;
+}
+
+.who_we_are_img img{
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+
+
 
 
 /* small tablets 620 - 959px*/
