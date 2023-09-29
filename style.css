@@ -309,8 +309,7 @@ background-color: var(--green);
 
 /* styling for our services under projects here */
 .mhp_services_container{
- padding-left: 20px;
- padding-top: 40px ;
+ padding: 40px 0px 40px 20px;
  background-color: var(--white);
  margin-top: 300px;
  width: 100%;
@@ -394,6 +393,62 @@ background-color: var(--green);
 
 .service_item_topic{
  padding-left: 50px;
+}
+
+
+.how_we_work{
+ display: none;
+}
+
+/* our recent projects small screen styles starts here */
+.small_hide {
+ display: none;
+}
+
+.mhp_portfolio {
+ padding: 30px;
+}
+
+.div_topic {
+ margin-bottom: 20px;
+}
+
+.div_topic h3 {
+ text-align: center;
+ font-size: 1.5em;
+}
+
+.our_recent_projects {
+ display: grid;
+ gap: 10px;
+ grid-template-columns: 1fr;
+}
+
+.our_recent_projects p {
+ font-size: 1.2em;
+ color: var(--white);
+}
+
+.recent_projects_heading h1 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 2em;
+}
+
+.recent_projects_heading {
+ width: 80%;
+ align-items: center;
+ margin: auto;
+}
+
+.recent_project_item img {
+ width: 100%;
+ margin: auto;
+}
+
+.recent_project_item {
+ padding: 20px;
+ margin: auto;
 }
 
 
@@ -707,7 +762,65 @@ background-color: var(--green);
 
 
 
+ /* what we do styling starts here for only large screen*/
+ .how_we_work{
+  display:block;
+ }
+
+ .what_we_do{
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+ }
+
+ .what_we_do_heading h3{
+  font-size: 2em;
+  text-transform: lowercase;
+ }
+
+  .what_we_do_heading h1{
+   font-size: 6em;
+   font-weight: 100 !important;
+   text-transform: uppercase;
+  }
+
+  #what_we_do_we_work{
+   margin-left: 120px;
+   margin-top: -30px;
+  }
+
+  .what_we_do_data{
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   background-color: var(--white);
+  }
+
+  .what_we_do_data_text{
+   grid-column: 1/9;
+   max-height: max-content;
+  }
+
+  .what_we_do_data_text p{
+   max-height: inherit;
+   margin: auto;
+   text-align: center;
+  }
+
+  .what_we_do_data_img{
+   grid-column: 10/13;
+  }
+
+.what_we_do_square{
+ width: 40px;
+ height: 40px;
+ color: #bfa778 !important;
+ 
 }
+
+
+}
+
+
 
 
 /* Desktops */

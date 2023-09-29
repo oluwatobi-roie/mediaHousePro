@@ -1,5 +1,111 @@
-.mhp_services{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
+html{
+ background-color: rgb(1, 18, 1);
+ color: white;
 }
+
+/* variables */
+:root {
+ --green: #063d3d;
+ --gold: #bfa778;
+ --white: #e4e8ea;
+ --purple: #252f53;
+}
+
+/* Font definitions */
+@font-face {
+ font-family: mhpFonts;
+ src: url(/fonts/GallientDemoVersion-Regular\ 400.otf);
+}
+
+@font-face {
+ font-family: gruppo;
+ src: url(/fonts/Gruppo-Regular.ttf);
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+li {
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+ text-decoration: none;
+ color: var(--white);
+}
+
+/* global settings */
+body {
+ background-color: var(--green);
+ /* color: var(--white); */
+}
+
+.site_wrapper {
+ overflow-x: hidden;
+}
+
+h1 {
+ font-family: mhpFonts;
+}
+
+h3 {
+ font-family: gruppo;
+ color: var(--gold);
+}
+
+
+
+
+/* Unique style starts here */
+.small_hide{
+ display: none;
+}
+
+.mhp_portfolio{
+ padding: 30px;
+}
+
+.div_topic{
+ margin-bottom: 20px;
+}
+.div_topic h3{
+ text-align: center;
+ font-size: 1.5em;
+}
+
+.our_recent_projects{
+ display: grid;
+ gap: 10px;
+ grid-template-columns: 1fr;
+}
+
+.our_recent_projects p{
+ font-size: 1.2em;
+}
+
+.recent_projects_heading h1{
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 2em;
+}
+
+.recent_projects_heading{
+ width: 80%;
+ align-items: center;
+ margin: auto;
+}
+
+.recent_project_item img{
+ width: 100%;
+ margin: auto;
+}
+
+.recent_project_item{
+ padding: 20px;
+ margin: auto;
+}
+
 
