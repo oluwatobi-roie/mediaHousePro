@@ -455,7 +455,7 @@ background-color: var(--green);
  padding: 20px 40px;
 }
 
-
+}
 /* tablets and Laptops */
 @media screen and (min-width: 960px) {
  .mhp_logo {
@@ -510,6 +510,45 @@ background-color: var(--green);
   .mob_left_view{
    margin-top: -100px;
    margin-left: 20px;
+  }
+
+  /* Proejcts Who are we styling for Laptops screens */
+  .who_we_are h3 {
+   margin-top: 20px;
+   font-size: 3em;
+  }
+ 
+  .who_we_are_topic h1 {
+   font-size: 4em;
+   font-weight: 100 !important;
+  }
+ 
+  #topic_your{
+   margin-top: -2px;
+   margin-left: 50px;
+  }
+ 
+  #topic_project {
+   margin-top: -10px;
+   margin-left: 100px;
+  }
+
+  .who_we_are_img{
+   left: 58%;
+   top: 10%;
+   width: 40%;
+
+  }
+
+  .who_we_are_quote{
+   margin-top: 150px;
+   margin-left: 200px;
+   width: 40%;
+  }
+ 
+  .who_we_are_quote p {
+   color: var(--white);
+   font-size: 1em;
   }
 
 }
