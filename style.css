@@ -29,6 +29,7 @@ body,p,h1,h2,h3,h4,a,li{
 /* global settings */
 body{
  background-color: var(--green);
+ /* color: var(--white); */
 }
 .site_wrapper{
  overflow-x: hidden;
@@ -58,7 +59,8 @@ h3{
  text-align: right;
  background-color: #063d3d;
  margin-left: -40px;
- margin-top: -5px
+ margin-top: -5px;
+
 }
 
 #mhpLinks li{
@@ -66,6 +68,10 @@ h3{
  text-transform: uppercase;
  font-weight: 400;
  margin-left: -30px;
+}
+
+#mhpLinks a{
+ color: var(--white)
 }
 
 
@@ -81,6 +87,7 @@ h3{
 
 .mhp_nav_grid a{
  padding: 20px 0px 0px 20px;
+ color: var(--white)
 }
 
 
@@ -88,6 +95,7 @@ h3{
  float: right;
  font-size: 40px;
  padding-right: 20px;
+ color: var(--white);
 }
 
 #links_socials a{
@@ -161,6 +169,71 @@ h3{
 }
 
 
+/* buildinig dreams for small screen style here */
+.building_dreams{
+ position: relative;
+ background-color: var(--white);
+ padding: 50px auto;
+}
+
+.building_dreams h1,p,h5,a{
+ color: var(--purple);
+}
+
+.building_dreams_topic{
+ width: 100%;
+ position: relative;
+ /* background-color: rgba(6, 61, 61, 0.6); */
+ margin: auto;
+ padding: 20px 20px 0px 20px;
+
+}
+.building_dreams_topic h1{
+ width: 100%;
+ text-transform: uppercase;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 700;
+ font-size: 2em;
+ text-align: left;
+ margin-left: -2%;
+ margin-bottom: -8px;
+ color: var(--green);
+ letter-spacing: -0.01em;
+}
+
+
+.building_dreams_word{
+ font-size: 1.5em !important; 
+ font-weight: 700 !important;
+ color: #252f53;
+}
+
+
+.building_dreams_text{
+ width: 90vw;
+ font-size: 1em;
+ text-align: justify;
+ margin: 30px;
+ margin-left: 10px;
+}
+
+.building_dreams_img{
+ width: 100%;
+ align-self: center;
+ padding: 0px 40px 40px 20px;
+}
+.building_dreams_img h5{
+ text-align: center;
+}
+
+.building_dreams_img img{
+ margin: auto;
+ width: 90%;
+}
+
+#small_view{
+ display: none;
+}
 
 
 
@@ -168,7 +241,6 @@ h3{
 @media screen and (min-width: 620px){
  .toggle_icon{
   display: none;
-  /* z-index: 2; */
  }
 
 
@@ -181,22 +253,34 @@ h3{
   margin: 0px auto 0px auto;
  }
 
+
  .screen_nav ul{
   width: auto;
   list-style-type: none;
   margin: 0px auto 0px auto;
+  
  }
 
  .screen_nav li{
   float: left;
   padding: 10px;
+  
  }
+
+ .screen_nav li a{
+  color: #e4e8ea;
+
+ }
+
 
  #screen_nav_socials{
   margin-left: 30px;
  }
+
+
  #screen_nav_socials a{
   padding: 1px;
+  color: black !important;
  } 
 
 
@@ -205,6 +289,7 @@ h3{
  left: 40%;
  width: 100%;
 }
+
 
  .mhp_home_mobile img{
   position: relative;
@@ -231,6 +316,49 @@ h3{
   font-weight: 100;
  }
 
+ .building_dreams{
+  padding-top: 30px;
+  margin-bottom: -100px !important;
+ }
+
+/* .building_grid{
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+} */
+
+ .building_dreams_topic{
+  position: absolute;
+  margin-left: 40px;
+ }
+
+ .building_dreams_topic h1{
+  font-family: mhpFonts;
+  font-size: 50px !important;
+  font-weight: 100 !important;
+ }
+
+ .building_dreams_text {
+  position: relative;
+  width: 30%;
+  left: 50%;
+ }
+
+ .one_at{
+  margin-left: 30px !important;
+ }
+
+.a_time {
+ margin-left: 60px !important;
+}
+
+.building_dreams_img{
+ margin: 100px auto 0px auto;
+}
+
+.building_dreams_img h5{
+ margin: 20px auto;
+ width: 30%;
+}
 }
 
 
@@ -260,7 +388,7 @@ h3{
   border-radius: 50%;
   text-align: center;
   font-size: smaller;
-  color: black;
+  /* color: black; */
  }
 
  .mhp_home_mobile img {
@@ -289,6 +417,7 @@ h3{
    margin-top: -100px;
    margin-left: 20px;
   }
+
 }
 
 
