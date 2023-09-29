@@ -635,12 +635,77 @@ background-color: var(--green);
    margin-top: 150px;
    margin-left: 200px;
    width: 40%;
+   background-color: rgba(0, 0, 0, 0);
   }
  
   .who_we_are_quote p {
    color: var(--white);
    font-size: 1em;
   }
+
+  .mhp_services{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-left: -20px;
+   justify-content: center;
+  }
+
+  .service_item_topic h1{
+   font-size: 50px !important;
+  }
+
+  .service_item_topic{
+   margin-right: 60px;
+  }
+
+  .service_item_text p{
+   font-size: 1.2em;
+   margin-left: -40px;
+   text-align: center;
+  }
+
+  .service_item_img{
+   width: 50%;
+   margin: auto;
+   padding: auto;
+  }
+
+
+  .mhp_services div:nth-child(3) {
+   grid-column: 3/4;
+   grid-row: 1;
+  }
+ 
+ 
+  .mhp_services div:nth-child(1) {
+   grid-column: 1/2;
+   grid-row: 1;
+   align-items: center;
+  }
+ 
+ 
+  .mhp_services div:nth-child(2) {
+   grid-column: 2/3 !important;
+   grid-row: 1;
+  }
+ 
+  .mhp_services div:nth-child(4) {
+   grid-column: 1/2;
+   grid-row: 2;
+  }
+ 
+ 
+  .mhp_services div:nth-child(5) {
+   grid-column: 2/3 !important;
+   grid-row: 2;
+  }
+ 
+  .mhp_services div:nth-child(6) {
+   grid-column: 3/4 !important;
+   grid-row: 2;
+  }
+
+
 
 }
 
