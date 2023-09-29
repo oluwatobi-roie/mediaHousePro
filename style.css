@@ -601,7 +601,32 @@ background-color: var(--green);
  padding: 20px 40px;
 }
 
+
+/* our recent project styling for larger screens */
+
+.large_hide{
+ display: none;
 }
+.small_hide{
+ display: inline-block;
+}
+
+.our_recent_projects{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.recent_projects_heading h1{
+ font-size: 2.8em;
+}
+
+.recent_projects_heading{
+ margin-bottom: 50px;
+}
+
+
+
+} 
 /* tablets and Laptops */
 @media screen and (min-width: 960px) {
  .mhp_logo {
