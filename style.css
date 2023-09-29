@@ -452,6 +452,85 @@ background-color: var(--green);
 }
 
 
+/* portfolio styles here */
+
+.portfolio_ideas {
+ padding: 40px;
+}
+
+.ideas_advice_topic h3 {
+ font-size: 1.2em;
+ text-align: center;
+}
+
+.ideas_advice_topic h1 {
+ font-size: 2.5em;
+}
+
+.ideas_advice_topic span{
+ font-family: cursive;
+}
+
+#and_advice {
+ margin-top: -15px;
+ margin-left: 40px;
+}
+
+.ideas_advice_image1 {
+ width: 90%;
+ margin: auto;
+ position: relative;
+}
+
+.ideas_advice_image1 img {
+ width: 100%;
+ margin: auto;
+}
+
+.ideas_advice_left_data {
+ position: absolute;
+ bottom: 3%;
+ left: 3%;
+}
+
+.ideas_advice_left_data {
+ width: 100%;
+ 
+}
+
+.ideas_advice_left_data h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.7em;
+ margin-bottom: 10px;
+}
+
+.ideas_advice_left_data p {
+ font-family: Arial, Helvetica, sans-serif;
+ width: 70%;
+ font-size: 0.6em;
+  color: var(--white);
+}
+
+.ideas_advice_left_data a {
+ margin-top: 30px;
+ font-size: 0.7em;
+  color: var(--white);
+}
+
+.recolor h1 {
+ width: 80%;
+ color: rgb(46, 46, 46);
+}
+
+.recolor p {
+ width: 80%;
+ color: rgb(46, 46, 46);
+}
+
+.recolor a {
+ width: 80%;
+ color: rgb(46, 46, 46);
+}
 
 
 /* small tablets 620 - 959px*/
@@ -624,6 +703,24 @@ background-color: var(--green);
  margin-bottom: 50px;
 }
 
+
+/* portfolio styles for tablets */
+.ideas_advice_left_data h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.9em;
+ margin-bottom: 10px;
+}
+
+.ideas_advice_left_data p {
+ font-family: Arial, Helvetica, sans-serif;
+ width: 70%;
+ font-size: 0.9em;
+}
+
+.ideas_advice_left_data a {
+ margin-top: 30px;
+ font-size: 0.9em;
+}
 
 
 } 
@@ -841,6 +938,21 @@ background-color: var(--green);
  color: #bfa778 !important;
  
 }
+
+/* portfolio styling for laptop screens */
+.ideas_advice_data{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.ideas_advice_topic{
+ font-size: 2em;
+}
+
+.ideas_advice_topic h1{
+ font-weight: 100;
+}
+
 
 
 }

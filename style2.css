@@ -51,6 +51,10 @@ h1 {
  font-family: mhpFonts;
 }
 
+h1 span{
+ font-family: 'Times New Roman', Times, serif;
+}
+
 h3 {
  font-family: gruppo;
  color: var(--gold);
@@ -60,52 +64,77 @@ h3 {
 
 
 /* Unique style starts here */
-.small_hide{
- display: none;
+
+.portfolio_ideas{
+ padding: 40px;
 }
 
-.mhp_portfolio{
- padding: 30px;
-}
-
-.div_topic{
- margin-bottom: 20px;
-}
-.div_topic h3{
- text-align: center;
- font-size: 1.5em;
-}
-
-.our_recent_projects{
- display: grid;
- gap: 10px;
- grid-template-columns: 1fr;
-}
-
-.our_recent_projects p{
+.ideas_advice_topic h3{
  font-size: 1.2em;
-}
-
-.recent_projects_heading h1{
  text-align: center;
- text-transform: uppercase;
- font-size: 2em;
 }
 
-.recent_projects_heading{
- width: 80%;
- align-items: center;
+.ideas_advice_topic h1{
+ font-size: 2.5em;
+}
+
+#and_advice{
+ margin-top: -15px;
+ margin-left: 40px;
+}
+
+
+.ideas_advice_image1{
+ width: 90%;
  margin: auto;
+ position: relative;
 }
 
-.recent_project_item img{
+.ideas_advice_image1 img{
  width: 100%;
  margin: auto;
 }
 
-.recent_project_item{
- padding: 20px;
- margin: auto;
+.ideas_advice_left_data{
+ position: absolute;
+ bottom: 3%;
+ left: 3%;
 }
 
+.ideas_advice_left_data{
+ width: 100%;
+ color: var(--white);
+}
 
+.ideas_advice_left_data h1{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.7em;
+ margin-bottom: 10px;
+}
+
+.ideas_advice_left_data p{
+ font-family: Arial, Helvetica, sans-serif;
+ width: 70%;
+ font-size: 0.6em;
+ color: var(--white);
+}
+
+.ideas_advice_left_data a{
+ margin-top: 30px;
+ font-size: 0.7em;
+}
+
+.recolor h1{
+ width: 80%;
+ color:rgb(46, 46, 46);
+}
+
+.recolor p{
+ width: 80%;
+ color: rgb(46, 46, 46);
+}
+
+.recolor a{
+ width: 80%;
+ color: rgb(46, 46, 46);
+}
