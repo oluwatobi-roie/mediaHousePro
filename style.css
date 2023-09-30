@@ -1274,6 +1274,93 @@ background-color: var(--green);
   font-weight: 100;
  }
 
+ .contact_us{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ }
+
+ .footer_logo{
+  grid-column: 1/2;
+  grid-row: 1;
+  display:block;
+  width: 100%;
+ }
+
+ .footer_logo img{
+  width: 100%;
+ }
+ 
+
+
+ .get_in_touch{
+  padding: 10px;
+  margin: 0px;
+  grid-column: 2/3;
+  grid-row: 1;
+ }
+
+ .get_in_touch i{
+  margin-right: 5px;
+ }
+
+ .get_in_touch p{
+  margin-bottom: 40px;
+ }
+
+ .contact_services{
+  display: block;
+ }
+
+ .contact_services h3{
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 20px;
+ }
+
+ .contact_us a{
+  text-decoration: underline;
+  color: var(--white);
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+ }
+
+ .contact_social_networks{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  justify-content: center;
+  margin-left: -10px;
+ }
+
+
+ .social_box{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -50px;
+ }
+
+
+ .social_items{
+  font-size: 1.8em;
+  
+ }
+
+ .contact_footer{
+  grid-row: 2;
+  grid-column: 1/6;
+ }
+
+ .contact_footer{
+  font-size: 1.6em;
+ }
+
+
+
 
 
 }
