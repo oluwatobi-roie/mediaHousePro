@@ -60,67 +60,139 @@ h3 {
  color: var(--gold);
 }
 
+.small_hide{
+
+}
 
 
 /* Unique style starts here */
-/* Modify grid template to 7fr 1fr for laptop screens  */
-.client_review_main{
+.contact_us{
+ margin-top: 40px;
+ border-top: solid white 2px;
  display: grid;
- grid-template-columns: 1fr;
+ padding-top: 40px;
 }
 
-.client_review_left img{
+.footer_logo{
  display: none;
 }
 
-.client_review_left{
- margin-left: 30px;
+.send_message{
+ grid-row: 1;
+ width: 80%;
+ margin: auto;
 }
-.client_review_left h3{
+
+.send_message h3{
  text-align: center;
-}
-
-.client_review_left h2{
- font-family: mhpFonts;
  text-transform: uppercase;
- font-size: 3em;
- margin-left: 40px;
- margin-top: -15px;
+ color: var(--white);
+ font-family: Arial, Helvetica, sans-serif;
 }
-
-.client_review_left h1{
- font-family: mhpFont;
- font-size: 3em;
- text-transform: uppercase;
- 
-}
-
-.client_review_right{
- text-align: center;
+.send_message form{
  width: 100%;
  margin: auto;
 }
 
-.review_pane{
- margin: 30px 0px;
+.form_conact_us{
+ margin: auto;
 }
 
-.user_image img{
- width: 200px;
- height: 200px;
- border-radius: 50%;
-}
-
-.user_data p{
- width: 80%;
+.form_contact_us button{
+ width: 100%;
  margin: auto;
  font-size: 1.2em;
+ border-radius: 10px;
+ border-color: var(--white);
+ text-align: left;
+ padding-left: 20px;
+ text-transform: uppercase;
+ font-weight: 500;
+
 }
 
-.user_data h3{
- font-family:Arial, Helvetica, sans-serif;
+
+.form_items{
+ margin: 10px;
+ padding-bottom: 10px;
+ border-bottom: solid 1px white;
+}
+
+.form_contact_us input {
+ width: 70%;
+ background-color: rgba(0, 0, 0, 0);
+ border-style: none;
  color: var(--white);
- margin-top: 10px;
-
+ outline: none;
+ padding-left: 30px;
+ text-overflow:ellipsis;
 }
 
+.form_items textarea{
+ background-color: rgba(0, 0, 0, 0);
+ width: 100%;
+ outline: none;
+ border-style: none;
+ color: var(--white);
+}
+
+.get_in_touch{
+ margin-top: 40px;
+ grid-row: 2;
+ margin-left: 25%;
+}
+
+.get_in_touch h3{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ font-size: 0.9em;
+ text-transform: uppercase;
+ margin-left: 25%;
+ margin-bottom: 20px;
+}
+
+.get_in_touch i{
+ margin-right: 20px;
+}
+
+.contact_services, .contact_social_networks a{
+ display: none;
+}
+
+.contact_social_networks{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+ gap: 40px;
+ margin: auto;
+}
+
+
+.social_box{
+ width: 30px;
+ height: 30px;
+ background-color: rgb(76, 55, 1);
+ border-radius: 100%;
+ margin: 20px auto;
+}
+
+.social_items{
+ margin-top: 20%;
+ margin-left: 20%;
+}
+
+.contact_footer{
+ background-color: var(--white);
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ padding: 40px auto;
+}
+
+.contact_footer p{
+ margin: 20px 0px;
+ color: var(--purple);
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 0.5em;
+ font-weight: 600;
+ text-align: center;
+}

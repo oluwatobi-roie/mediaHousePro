@@ -690,6 +690,147 @@ background-color: var(--green);
 }
 
 
+/* contacctus for small screen here */
+
+.contact_us {
+ margin-top: 40px;
+ border-top: solid white 2px;
+ display: grid;
+ padding-top: 40px;
+}
+
+.footer_logo {
+ display: none;
+}
+
+.send_message {
+ grid-row: 1;
+ width: 80%;
+ margin: auto;
+}
+
+.send_message h3 {
+ text-align: center;
+ text-transform: uppercase;
+ color: var(--white);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.send_message form {
+ width: 100%;
+ margin: auto;
+}
+
+.form_conact_us {
+ margin: auto;
+}
+
+.form_contact_us button {
+ width: 100%;
+ margin: auto;
+ font-size: 1.2em;
+ border-radius: 10px;
+ border-color: var(--white);
+ text-align: left;
+ padding-left: 20px;
+ text-transform: uppercase;
+ font-weight: 500;
+
+}
+
+
+.form_items {
+ margin: 10px;
+ padding-bottom: 10px;
+ border-bottom: solid 1px white;
+}
+
+.form_contact_us input {
+ width: 70%;
+ background-color: rgba(0, 0, 0, 0);
+ border-style: none;
+ color: var(--white);
+ outline: none;
+ padding-left: 30px;
+ text-overflow: ellipsis;
+}
+
+.form_items textarea {
+ background-color: rgba(0, 0, 0, 0);
+ width: 100%;
+ outline: none;
+ border-style: none;
+ color: var(--white);
+}
+
+.get_in_touch {
+ margin-top: 40px;
+ grid-row: 2;
+ margin-left: 25%;
+}
+
+.get_in_touch h3 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ font-size: 0.9em;
+ text-transform: uppercase;
+ margin-left: 25%;
+ margin-bottom: 20px;
+}
+
+.get_in_touch p{
+ color: var(--white);
+}
+
+.get_in_touch i {
+ margin-right: 20px;
+}
+
+.contact_services,
+.contact_social_networks a {
+ display: none;
+}
+
+.contact_social_networks {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+ gap: 40px;
+ margin: auto;
+}
+
+
+.social_box {
+ width: 30px;
+ height: 30px;
+ background-color: rgb(76, 55, 1);
+ border-radius: 100%;
+ margin: 20px auto;
+}
+
+.social_items {
+ margin-top: 20%;
+ margin-left: 20%;
+}
+
+.contact_footer {
+ background-color: var(--white);
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ padding: 40px auto;
+}
+
+.contact_footer p {
+ margin: 20px 0px;
+ color: var(--purple);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.5em;
+ font-weight: 600;
+ text-align: center;
+}
+
+
+
 /* small tablets 620 - 959px*/
 @media screen and (min-width: 620px){
  .toggle_icon{
