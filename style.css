@@ -15,6 +15,7 @@
 @font-face {
  font-family: gruppo;
  src: url(/fonts/Gruppo-Regular.ttf);
+ /* src:url(/fonts/Foglihten-068.otf) */
 }
 
 /* reset */
@@ -1071,9 +1072,11 @@ background-color: var(--green);
 .large_hide2{
  font-size: 1.5em;
 }
+}
 
 
-} 
+
+
 /* tablets and Laptops */
 @media screen and (min-width: 960px) {
  .mhp_logo {
@@ -1447,11 +1450,6 @@ background-color: var(--green);
  .contact_footer{
   font-size: 1.6em;
  }
-
-
-
-
-
 }
 
 
