@@ -62,79 +62,81 @@ h3 {
 
 
 
-
 /* Unique style starts here */
-
-.portfolio_ideas{
- padding: 40px;
+.different_company_container{
+ background-color: var(--white);
+ padding-top: 30px;
 }
 
-.ideas_advice_topic h3{
- font-size: 1.2em;
+.small_hide{
+ display: none;
+}
+
+.different_company_main p,h1{
+ color: var(--purple);
+}
+
+.different_company_main span{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.different_company_main{
+ margin-top: 30px;
+}
+
+.large_hide h1{
+ font-family: 'Times New Roman', Times, serif;
+ display: inline;
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 2em;
+ width: 80%;
+}
+
+.large_hide{
  text-align: center;
 }
 
-.ideas_advice_topic h1{
- font-size: 2.5em;
-}
-
-#and_advice{
- margin-top: -15px;
- margin-left: 40px;
-}
-
-
-.ideas_advice_image1{
+.diff_data_grid{
  width: 90%;
+ display: grid;
+ grid-template-columns: 2fr 5fr;
+ margin-bottom: 50px;
+}
+
+.diff_logo_square{
  margin: auto;
- position: relative;
+
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background-color: #252f53;
 }
 
-.ideas_advice_image1 img{
- width: 100%;
- margin: auto;
+.diff_logo_square i{
+ font-size: 2em;
+ /* padding-left: 0px;
+ top: 0%; */
+ bottom: 0%;
+ color: #063d3d;
+ color: var(--white)
 }
 
-.ideas_advice_left_data{
- position: absolute;
- bottom: 3%;
- left: 3%;
+.bi{
+ color: #063d3d;
 }
 
-.ideas_advice_left_data{
- width: 100%;
- color: var(--white);
+
+.diff_data_text h1{
+ text-align: center;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 0.9em;
+ text-transform: uppercase;
 }
 
-.ideas_advice_left_data h1{
- font-family: Arial, Helvetica, sans-serif;
- font-size: 0.7em;
- margin-bottom: 10px;
+.diff_data_text p{
+ font-size: 0.8em;
+ margin-top: 5px;
 }
 
-.ideas_advice_left_data p{
- font-family: Arial, Helvetica, sans-serif;
- width: 70%;
- font-size: 0.6em;
- color: var(--white);
-}
 
-.ideas_advice_left_data a{
- margin-top: 30px;
- font-size: 0.7em;
-}
-
-.recolor h1{
- width: 80%;
- color:rgb(46, 46, 46);
-}
-
-.recolor p{
- width: 80%;
- color: rgb(46, 46, 46);
-}
-
-.recolor a{
- width: 80%;
- color: rgb(46, 46, 46);
-}

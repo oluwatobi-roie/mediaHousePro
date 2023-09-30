@@ -532,6 +532,98 @@ background-color: var(--green);
  color: rgb(46, 46, 46);
 }
 
+/* midpro Effect small screen styling for small screens */
+
+.different_company_container {
+ background-color: var(--white);
+ padding-top: 30px;
+}
+
+.small_hide2 p{
+ display: none;
+}
+
+.small_hide2 h1{
+ display: none;
+}
+
+.small_hide2 img{
+ display: none;
+}
+
+
+.different_company_main p{
+ color: var(--purple) ;
+ 
+}
+.different_comapany_main h1{
+ color: var(--purple);
+ width: 100%;
+}
+
+.different_company_main span {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.different_company_main {
+ margin-top: 30px;
+}
+
+.large_hide2 h1{
+ font-family: 'Times New Roman', Times, serif;
+ display: inline;
+ color: var(--purple);
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 2em;
+ width: 80%;
+}
+
+.large_hide2{
+ text-align: center;
+}
+
+.diff_data_grid {
+ width: 90%;
+ display: grid;
+ grid-template-columns: 2fr 5fr;
+ margin-bottom: 20px;
+}
+
+
+.diff_logo_square {
+ margin: auto;
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background-color: var(--purple);
+}
+
+.diff_data_logo i {
+ position: relative;
+ font-size: 3em;
+ top: -50%;
+ right: -30%;
+ color: var(--white)
+}
+
+
+
+
+.diff_data_text h1 {
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 0.9em;
+ text-transform: uppercase;
+ color: var(--purple);
+}
+
+.diff_data_text p {
+ font-size: 0.8em;
+ margin-top: 5px;
+}
+
+
 
 /* small tablets 620 - 959px*/
 @media screen and (min-width: 620px){
@@ -720,6 +812,29 @@ background-color: var(--green);
 .ideas_advice_left_data a {
  margin-top: 30px;
  font-size: 0.9em;
+}
+
+
+/*  */
+
+.diff_data_logo i {
+ position: relative;
+ font-size: 3em;
+ top: -51%;
+ right: -41%;
+ color: var(--white)
+}
+.diff_data_text{
+ font-size: 1.5em;
+}
+
+.small_hide2 img{
+ display: block;
+ margin: auto;
+}
+
+.large_hide2{
+ font-size: 1.5em;
 }
 
 
