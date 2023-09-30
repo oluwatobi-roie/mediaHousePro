@@ -1054,19 +1054,19 @@ background-color: var(--green);
  
 }
 
-/* portfolio styling for laptop screens */
-.ideas_advice_data{
- display: grid;
- grid-template-columns: 1fr 1fr;
-}
+ /* portfolio styling for laptop screens */
+ .ideas_advice_data{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
 
-.ideas_advice_topic{
- font-size: 2em;
-}
+ .ideas_advice_topic{
+  font-size: 2em;
+ }
 
-.ideas_advice_topic h1{
- font-weight: 100;
-}
+ .ideas_advice_topic h1{
+  font-weight: 100;
+ }
 
 
 
@@ -1079,5 +1079,58 @@ background-color: var(--green);
 @media screen and (min-width: 1200px) {
  .toggle_icon {
    display: none;
+  }
+
+  /* Styling for desktop screen for midhouse pro effect */
+  .large_hide2 {
+   display: none;
+  }
+
+  .small_hide2{
+   margin-left: 50px;
+  }
+  .small_hide2 p{
+   display: block;
+   text-align: center;
+   font-size: 1.4em;
+   margin-top: 40px;
+  }
+
+  .small_hide2 h1{
+   display: block;
+   color: var(--purple);
+   text-transform: uppercase;
+   font-weight: 100;
+   font-size: 3em;
+  }
+
+  .small_hide2 img{
+   width: 80%;
+   float: left;
+   margin-top: 50px;
+  }
+
+  .split_difference {
+   display: grid;
+   grid-template-columns: 5fr 7fr;
+   gap: 4px;
+  }
+
+  #a_different{
+   margin-top: 70px;
+   padding-left: 80px;
+  }
+
+  .diff_data_logo i{
+   top: -48%;
+   left: 33%;
+  }
+
+  .diff_data_logo{
+   margin-top: 50%;
+  }
+
+  #aboutus{
+  margin-top: 100px;
   }
 }
